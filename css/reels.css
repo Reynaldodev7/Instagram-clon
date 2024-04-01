@@ -1,0 +1,25 @@
+html{
+
+    background-color: black;
+}
+
+.container-homepage{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.publicacion{
+
+    margin-bottom: 90px;
+}
+
+@media screen and (max-width: 830px){
+
+    .publicacion{
+
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+}

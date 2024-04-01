@@ -1,0 +1,119 @@
+.container-registrarse{
+
+    display: none;
+    padding-bottom: 40px;
+}
+
+.container{
+
+    margin-top: 10px;
+}
+
+.formulario{
+
+    width: 350px;
+}
+
+.container .formulario h1{
+
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.subtitulo{
+
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.facebook{
+
+    background-color: rgb(44, 176, 229);
+    padding: 5px 15px;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.link-text span{
+
+    color: white;
+}
+
+.p{
+
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.p a{
+
+    text-decoration: none;
+    color: darkblue;
+}
+
+.x-correo{
+
+    position: relative;
+    bottom: 28px;
+    left: 270px;
+    display: none;
+}
+
+.x-usuario{
+
+    position: relative;
+    bottom: 28px;
+    left: 270px;
+    display: none;
+}
+
+.x-correo img,
+.x-usuario img{
+
+    width: 20px;
+}
+
+@media screen and (max-width: 500px){
+
+    .container-registrarse{
+
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 385px){
+
+    .input input{
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .formulario{
+
+        width: 280px;
+    }
+
+    .x-usuario{
+
+        left: 220px !important;
+    }
+
+    .x-correo{
+
+        left: 220px !important;
+    }
+
+    .mostrar{
+
+        left: 190px;
+    }
+}
